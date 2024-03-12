@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right , #FDC639, #FF7C60);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signin
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: auto;
+    width: 400px;
+    box-shadow: 0 15px 35px rgba(0,0,0,9);
+    z-index: 1000;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.signin .content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+   
+}
+
+.signin .content h2 
+{
+  font-size: 2em;
+}
+
+.content .signform 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.signin .content .signform .inputBox
+{
+  position: relative;
+  width: 100%;
+
+}
+
+.signform .inputbox input
+{   position: relative;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.signin .content .signform #emailiddiv
+{
+    margin-left: 25px
+}
+
+.links
+{   position: relative;
+    width:250px;
+   display: flex;
+   justify-content: space-between;
+   gap: 70px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: 600;
+}
+
+.signup
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: auto;
+    width: 400px;
+    box-shadow: 0 15px 35px rgba(0,0,0,9);
+    z-index: 1000;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.signup .content
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+   
+}
+
+.signup .content h2 
+{
+  font-size: 2em;
+}
+
+.content .signupform 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.signup .content .signupform .inputBox
+{
+  position: relative;
+  width: 100%;
+
+}
+
+.signupform .inputbox input
+{   position: relative;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.signup .content .signupform #emailiddiv
+{
+    margin-left: 30px
+}
+
+.links
+{   position: relative;
+    width:250px;
+   display: flex;
+   justify-content: end;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: darkslategrey;
+    font-weight: 600;
+}
+
+
+
+
+
